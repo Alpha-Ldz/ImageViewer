@@ -1,0 +1,143 @@
+.title-enter {
+    opacity: 0.01;
+    transform: translateY(100%);
+}
+.title-enter-active {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: linear 200ms;
+}
+.title-exit {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.title-exit-active {
+    opacity: 0.01;
+    transform: translateY(100%);
+    transition: linear 200ms;
+    transition-delay: 600ms;
+}
+
+.content-enter {
+    opacity: 0.01;
+    transform: translateY(20%);
+}
+.content-enter-active {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: linear 200ms;
+    transition-delay: 300ms;
+}
+.content-exit {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.content-exit-active {
+    opacity: 0.01;
+    transform: translateY(20%);
+    transition: linear 200ms;
+    transition-delay: 300ms;
+}
+
+.image-enter {
+    opacity: 0.01;
+}
+.image-enter-active {
+    opacity: 1;
+    transition: linear 200ms;
+}
+.image-exit {
+    opacity: 1;
+}
+.image-exit-active {
+    opacity: 0.01;
+    transition: linear 200ms;
+    transition-delay: 600ms;
+}
+
+.button-enter {
+    opacity: 0.01;
+    transform: translateY(100%);
+}
+.button-enter-active {
+    opacity: 1;
+    transform: translateY(0%);
+    transition: linear 200ms;
+    transition-delay: 600ms;
+
+}
+.button-exit {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.button-exit-active {
+    opacity: 0.01;
+    transform: translateY(100%);
+    transition: linear 200ms;
+}
+
+.group {
+    width: 75vw;
+    height: 90vh;
+
+    margin:auto;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+    font-family: CustomFont;
+}
+
+.side {
+    height: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 20px;
+}
+
+.imageDiv {
+    height: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.titleDiv {
+    flex: 1;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.contentDiv {
+    flex: 1;
+    font-weight: lighter;
+    font-size: 16em;
+}
+
+.buttonDiv {
+    height: 36px;
+    width: 350px;
+    flex: 1;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttonText {
+    height: 36px;
+    flex: 2;
+}
+
+.avatarDiv {
+    height: 36px;
+    width: 36px;
+    flex: 1;
+}
